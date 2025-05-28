@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:  #e9c0e7;
+    border-radius: 2rem;
+    margin: 0;
+    padding: 20px;
+    
+    background: linear-gradient(to right, #ffe6f0 50%, #ffffff 50%);
+    padding: 30px;
+    border-radius: 20px;
+    max-width: 800px;
+    margin: 40px auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+
+}
+
+.post-container {
+    background-color:#b095da;
+    padding: 30px;
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 40px auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.post-title {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.post-description,
+.post-container p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.boton-centrado {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.btn-ir-tienda {
+        border: 0;
+    background-color:#ffffff;
+    text-decoration: none;
+    font-size: 12px; 
+    color: #b095da;
+    padding: .70rem;
+    border-radius: 3rem;
+    cursor: pointer;
+    border: 2px solid #ffffff;
+    transition: background-color .2s, color .2s;
+}
+
+.btn-ir-tienda:hover {
+    background-color: #ffe6f0;
+}
+.post-footer {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+}
+
+.post-footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.post-footer a:hover {
+    text-decoration: underline;
+}
+
+.logo-fijo {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    width: 100px;
+    height: auto;
+    z-index: 9999;
+}
+
+
+
+
